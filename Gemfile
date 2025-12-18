@@ -104,7 +104,7 @@ gem 'omniauth-alicloud', '~> 3.0.0', feature_category: :system_access
 gem 'omniauth-github', '2.0.1', feature_category: :system_access
 # See vendor/gems/omniauth-gitlab/README.md
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab', feature_category: :system_access
-gem 'omniauth-google-oauth2', '~> 1.1', feature_category: :system_access
+gem 'omniauth-google-oauth2', '~> 1.2', feature_category: :system_access
 gem 'omniauth-oauth2-generic', '~> 0.2.2', feature_category: :system_access
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth', feature_category: :system_access
 # See vendor/gems/omniauth_crowd/README.md
@@ -242,9 +242,9 @@ gem 'seed-fu', '~> 2.3.7', feature_category: :shared
 gem 'elasticsearch-model', '~> 7.2', feature_category: :global_search
 gem 'elasticsearch-rails', '~> 7.2', require: 'elasticsearch/rails/instrumentation', feature_category: :global_search
 gem 'elasticsearch-api', '7.17.11', feature_category: :global_search
-gem 'aws-sdk-core', '~> 3.226.0', feature_category: :global_search
+gem 'aws-sdk-core', '~> 3.240.0', feature_category: :global_search
 gem 'aws-sdk-cloudformation', '~> 1', feature_category: :global_search
-gem 'aws-sdk-s3', '~> 1.193.0', feature_category: :global_search
+gem 'aws-sdk-s3', '~> 1.208.0', feature_category: :global_search
 gem 'faraday-typhoeus', '~> 1.1', feature_category: :global_search
 gem 'faraday_middleware-aws-sigv4', '~> 1.0.1', feature_category: :global_search
 # Used with Elasticsearch to support http keep-alive connections
@@ -700,7 +700,7 @@ gem 'oj-introspect', '~> 0.8', feature_category: :shared
 gem 'multi_json', '~> 1.17.0', feature_category: :shared
 gem 'yajl-ruby', '~> 1.4.3', require: 'yajl', feature_category: :shared
 
-gem 'webauthn', '~> 3.0', feature_category: :shared
+gem 'webauthn', '~> 3.4', feature_category: :shared
 
 # IPAddress utilities
 gem 'ipaddress', '~> 0.8.3', feature_category: :shared
